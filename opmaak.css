@@ -1,0 +1,35 @@
+body{
+    background-color:#f0efef
+    ;
+    border-style: ouset;
+    border-color: #fefbd8;
+  } /*opmaak van het hoofddeel van het document, achtergrondkleur en border*/
+  
+  ul {
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #618685;
+  } /*opmaak van de unordered list*/
+  
+  li {
+    float: left;
+  } /*definieert een lijstitem*/
+  
+  li a {
+    display: block;
+    color: white;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+  } /*tekst*/
+  
+  a:link, a:visited {
+    background-color: #618685;
+    color: white;
+    padding: 14px 25px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+  } /*link knop*/
