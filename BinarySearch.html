@@ -1,10 +1,9 @@
 <!DOCTYPE html>
 <html>
 <head>
-    <script>
-    function main() {
+    <script> 
     var zoekGetal, i;
-    var getallenRij = createArray(10);
+    var getallenRij = new Array(10);
 
     for (i = 0; i <= 9; i++) {
         getallenRij[i] = Math.floor(Math.random() * 100);
@@ -31,7 +30,7 @@
     } else {
         window.alert(zoekGetal.ToString() + " staat op plek " + plaatsGevonden);
     }
-}
+
     </script>
 </head>
 </html>
